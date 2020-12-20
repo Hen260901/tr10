@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr- be">
+  <head>
+  <link>
+    <meta charset=utf-8>
+    <title>Tr10 -Henry Petre-HE201953 Projet</title>
+    <!-- Script de js ! -->
+
+    <link rel="stylesheet" type="text/css" href="css/Tr10.css">
+  </head>
+  <body>
+
+
+    <!-- ***** FORMULAIRE ***** -->
+	
+      <p id ="surnom"> </p>
+      <script src="JS/tr10 Projet.js"></script>
+    <table>
+
+    </table>
+
+
+        <h1>
+         Direct
+          <br>Games</h1>
+        <div class="image">
+        <img src="https://www.dakarvente.com/media/annonces/pics/df6dbae61dfa3285fecfe0780388d351.jpg" alt="Jeux2020" width="500" height="400" ><br>
+        </div>
+
+
+
+        <!-- Type de jeux -->
+    <form id ="JeuAchetes" action=# onsubmit="return acheter(this);">
+        <label for="jeux">Jeu Vidéo :</label>
+        <select id="jeux" name="jeux">
+          <option value="Cyberpunk2077" selected>Cyberpunk2077</option>
+          <option value="Watch Dogs Legion">Watch dogs Legion</option>
+          <option value="GTA 5">Grand theft Auto 5</option>
+          <option  value="Final Fantasy XV">Final Fantasy XV</option>
+          <option value="Among Us">Among Us</option>
+          <option value="AC Vahalla">Assassins Creed Vahalla</option>
+          <option value="Red dead Redemption 2">Red dead Redemption 2</option>
+          <option value="Hitman 3">Hitman 3</option>
+          <option value="Just Cause 4">Just Cause 4</option>
+          <option value="Farcry 5">Farcry 5</option>
+          <option value="Fifa 20">Fifa 20</option>
+          <option value="NFS Heart">NFS Heart</option>
+          <option value="NBA 2k20">NBA 2k20</option>
+
+        </select><br>
+        <!-- Types de consoles -->
+        <label for="consoles">Type de console : </label>
+        <select id="consoles" name="console">
+          <option value="PS4">PS4</option>
+          <option value="Xbox One">Xbox One</option>
+          <option value="PC">PC</option>
+          <option value="PS5">PS5</option>
+          <option value="Xbox Série X">Xbox Série X</option>
+          </select>
+          <br>
+
+
+        <!-- Langues -->
+        <label for="langue">Langue : </label>
+        <select id="langue" name="langue">
+          <option value="Français">Français</option>
+          <option value="Néerlandais">Nederlands</option>
+          <option value="Anglais">English</option>
+        </select><br>
+        <!-- Moyen de paiement -->
+        <label for="paiement">Moyen de paiement</label>
+        <select id="paiement" name="paiement">
+            <option value="Bancontact">Bancontact</option>
+            <option value="Mastercard">Mastercard</option>
+            <option value="PayPal">PayPal</option>
+        </select>
+          <p>
+          <a href="https://www.gamesgames.com/">Games</a>
+          </p>
+        <!-- bouton -->
+        <span id ="list">
+        <input  id ="liste" type="submit" value="acheter">
+            </span><br>
+        <span id="triagePrix"></span>
+        <input type="reset">
+    </form>
+          <button id="stock" type="button" onclick="stock();">Afficher le stock restant</button>
+
+
+
+  </body>
+</html>

@@ -1,0 +1,50 @@
+.image {
+    float: none;
+}
+h1 {
+    font-family: Algerian, serif;
+    text-align: center;
+
+
+
+}
+body {
+    text-align: center;
+    font-weight: bold;
+    font-size:20px;
+    background-color: skyblue;
+    display: block;
+    margin: 8px;
+}
+input {
+    font-weight: bold;
+    padding: 10px 50px;
+    margin:5px 4px;
+    cursor: pointer;
+    text-transform: unset;
+    text-align: center;
+    position: relative;
+    float: bottom;
+}
+input:hover {
+    opacity:0.5;}
+button {
+    font-weight: bold;
+    padding: 10px 30px;
+    margin:8px 4px;
+    cursor: pointer;
+    text-transform: unset;
+    text-align: center;
+    position: relative;
+}
+button:hover {
+    opacity:0.5;}
+select {
+    padding: 5px 10px;
+    margin:5px 4px;
+    cursor: pointer;
+    text-transform: unset;
+    text-align: center;
+    position: relative;
+}
+
